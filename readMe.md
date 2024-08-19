@@ -1,8 +1,8 @@
 ### 第一次使用git
 
 版本控制的簡單指令
-- git —config [user.name](http://user.name) “<name>” : 修改者的名字
-- git —config [user.email](http://user.email) “<Email>” : 修改者的Email
+- git config --global [user.name](http://user.name) “<name>” : 修改者的名字
+- git config --global [user.email](http://user.email) “<Email>” : 修改者的Email
 - git init: 啟動git，會在資料夾中出現隱藏的.git資料夾，存放修改的歷史
 - git status: 會顯示資料夾內檔案的狀態
 - git add <檔案名稱>: 檔案會顯示"A"表示已加入追蹤名單
